@@ -1,0 +1,462 @@
+*{
+    margin: 0;
+    
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Muli;
+    src: url(./fonts/Muli-Regular.ttf);
+}
+body{
+    font-family: Muli;
+    margin: auto;
+    justify-content: center;
+    font-size: 0.9rem;
+  
+}
+header{
+    background-color: rgb(255, 210, 129);
+    text-align: center;
+}
+header a {
+    text-decoration: none;
+}
+.nav{
+    padding: 0 6rem;
+
+}
+.logo{
+    width: 50%;
+    height: auto;
+    margin: 0 25%;
+    padding-top: 2rem;
+
+}
+.logo img{
+    width: 100%;
+    height: auto; 
+    padding: 2%;
+
+}
+.nav a{
+    display: block;
+    padding: 0.5rem 0;
+    font-weight: 700;
+    color: rgb(247, 60, 107);
+}
+.nav a:hover{
+    background-color: rgb(247, 60, 107);
+    border-radius: 10px;
+    color: white;
+}
+
+/* Navbar Ended Here  */
+
+.nav-content-container{
+    display: flex;
+    flex-direction: column;
+}
+.nav-content-container .image{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+.nav-content-container .image img{
+    width: 100%;
+    height: auto;
+}
+.content{
+    width: 90%;
+    margin: 4% auto;
+}
+.content h1{
+    font-size: 1rem;
+    font-weight:700;
+}
+.content p{
+    margin-top: 1rem;
+    font-weight: 400;
+    text-align: justify;
+}
+.contact-btn{
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid rgb(247, 60, 107);
+    padding: 0.5rem;
+    color: rgb(247, 60, 107);
+    font-weight: 900;
+    margin-top: 3vw;
+}
+.contact-btn:hover{
+    background-color: rgb(247, 60, 107);
+    color: white;
+}
+/* Header Section Ended  */
+
+/* Capsul Section Started  */
+.capsul-image{
+    display: none;
+}
+
+.capsul-container{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.capsul-content{
+    order: 2;
+ 
+}
+.card-1{
+    background-color: rgb(79, 85, 221);
+    color: white;
+}
+.content-card{
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border-radius: 5px;
+    font-weight: 400;
+    text-align: justify;
+}
+.content-card:hover{
+    border: 0.0625rem solid rgb(79, 85, 221);
+    box-shadow: 10px 13px 16px -5px rgba(79, 85, 221); 
+}
+.big-capsul-image{
+    order: 1;
+    width: 50%;
+    height: auto;
+    display: inline-block;
+    margin: 0 auto;
+}
+.big-capsul-image img{
+    display: inline-block;
+    width: 100%;
+}
+
+/* Capsul Section Ended Here  */
+
+/* Business Area Started Here  */
+
+.business{
+    background-color: rgb(151, 234, 185);
+    position: relative;
+    height: 10rem;
+    border-radius: 0.4rem;
+    margin-bottom: 2rem;
+}
+.ring-image{
+    position: absolute;
+    width: 6rem;
+    height: auto;
+    top: -1rem;
+    left: 39%;
+}
+.ring-image img{
+    width: 100%;
+    height: auto;
+}
+.business-container{
+    display: flex;
+}
+.div-with{
+    width: 50%;
+}
+.business-content-1, .business-content-2{
+    margin: 1% 5%;
+    padding: 10% 3%;
+}
+
+/* Business Are Ended Here  */
+
+/* Cycle Area Started  */
+
+.cycle-section{
+    position: relative;
+    margin-bottom: 2rem;
+}
+.cycle-image{
+    display: none;
+}
+
+.cycle-container, .text-container{
+    display: flex;
+    flex-direction: column;
+}
+.cycle-content-1, .cycle-content-2, .text-content{
+    margin: 1rem 1.5rem;
+}
+
+.cycle-content-1:hover{
+    border: 0.0625rem solid rgb(79, 85, 221);
+    box-shadow: 10px 13px 16px -5px rgba(79, 85, 221);
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+.cycle-content-2:hover{
+    border: 0.0625rem solid rgb(79, 85, 221);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-shadow: 10px 13px 16px -5px rgba(79, 85, 221); 
+} 
+
+.text-content:hover{
+    border: 0.0625rem solid rgb(79, 85, 221);
+    box-shadow: 10px 13px 16px -5px rgba(79, 85, 221);
+    border-radius: 0.5rem;
+    padding: 1rem; 
+}
+
+/* Cycle Area Ended Here  */
+
+/* Running Area Started  */
+.running-sm-image{
+    display: none;
+}
+.running-image{
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+}
+.running-image img{
+    width: 100%;
+}
+.running-container{
+    display: flex;
+    flex-direction: column;
+}
+.running-content{
+    text-align: justify;
+    padding: 2rem 1.5rem;
+}
+.running-content h5{
+    margin: 1rem 0;
+    font-size: 0.9rem;
+    text-align: center;
+}
+.running-content h1{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.running-content:hover{
+    border: 0.0625rem solid rgb(79, 85, 221);
+    box-shadow: 10px 13px 16px -5px rgba(79, 85, 221);
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+/* Running Area Ended Here  */
+
+/* Business Grow Area Started  */
+.business-grow{
+    display: flex;
+    flex-direction: column;
+}
+.subscribe-image{
+    display: none;
+}
+
+.subscription-container{
+    margin: 1rem 1.5rem;
+}
+.subscription-container p{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.subscription-container input,button{
+    display: inline-block;
+    margin: 0.4rem 0;
+    padding: 0.3rem;
+    border-radius: 5px;
+    border: 1px solid rgb(53, 50, 50);
+}
+.subscription-container button{
+    background-color: rgb(247, 60, 107);
+    color: white;
+}
+/* Business Grow Area Ended*/
+/* About Section Started  */
+.abut{
+    background-color: rgb(197, 201, 206);
+    margin: 1.5rem;
+}
+.about-heading{
+    margin: 1.5rem;
+}
+.about-container{
+    display: flex;
+    flex-direction: column;
+}
+.about-content{
+    background-color: white;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    min-height: 13rem;
+    position: relative;
+    border-radius: 10px;
+    padding-bottom: 15%;
+    text-align: justify;
+}
+.about-content h1{
+    margin-bottom: 1rem;
+}
+.left-bottom-div, .midle-bottom-div, .right-bottom-div{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.left-bottom-div{
+    background-color: rgb(255, 210, 129);
+}
+.content1{
+    border: 1px solid rgb(255, 210, 129);
+}
+.content1:hover{
+    padding: 1rem;
+    box-shadow: 10px 13px 16px -5px rgba(255,210,129,0.75);;
+}
+.midle-bottom-div{
+    background-color: rgb(151, 234, 185);
+}
+.content2{
+    border: 1px solid rgb(151, 234, 185);  
+}
+.content2:hover{
+    padding: 1rem;
+    box-shadow: 10px 13px 16px -5px rgba(151, 234, 185,0.75);;
+}
+.right-bottom-div{
+    background-color: rgb(255, 163, 171);
+}
+.content3{
+    border: 1px solid rgb(255, 163, 171);
+}
+.content3:hover{
+    padding: 1rem;
+    box-shadow: 10px 13px 16px -5px rgba(255, 163, 171,0.75);;
+}
+/* About Section Started  */
+
+
+/* Footer Design Started Here  */
+footer{
+    margin-top: 2rem;
+    background-color: rgb(151, 234, 185);
+    position: relative;
+}
+#footer-top-image{
+    height: 5rem;
+    width: auto;
+    position: absolute;
+    top: -2.3rem;
+    right: 1rem;
+}
+#footer-top-image img{
+    width: auto;
+    height: 100%;
+}
+#footer-bottom-image{
+    height: 3rem;
+    width: auto;
+    position: absolute;
+    bottom: -1rem;
+    right: -1rem;
+}
+#footer-bottom-image img{
+    width: auto;
+    height: 100%;   
+}
+#footer-left-image{
+    display: none;
+
+}
+.footer-upper{
+    display: flex;
+    flex-direction: column;
+}
+.wide{
+    padding: 1rem 1.5rem;
+}
+.wide img{
+    margin: 4vw 0;
+    height: 4vw;
+    width: auto;
+}
+.wide p{
+    text-align: justify;
+    margin-bottom: 3vw;
+}
+.narrow{
+    margin: 1.5rem;
+}
+.narrow h6{
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+.narrow li{
+    list-style: none;
+}
+.narrow li a:hover{
+    background-color: rgb(88, 165, 120);
+    border-radius: 5px;
+    padding: 0.5rem;
+    color: white; 
+}
+.narrow a{
+    text-decoration: none;
+    color: black;
+}
+.city-name{
+    margin: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.city-name a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 0.4rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.city-name a:hover{
+    background-color: rgb(88, 165, 120);
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+.footer-lower{
+    display: flex;
+    justify-content: center;
+}
+.pay-image{
+    margin: 0.32rem;
+    width: 2.5rem;
+    height: auto;
+}
+.pay-image img{
+    width: 100%;
+    height: auto;
+}
+.copy-right-container{
+    display: flex;
+    flex-direction: column;
+}
+.copy-right{
+    order: 2;
+    margin: 1.5rem;
+    font-weight: 700;
+}
+.copy-right-bottom{
+    font-size: 0.7rem;
+}
+.terms{
+    margin: 1.5rem;
+    order: 1;
+}

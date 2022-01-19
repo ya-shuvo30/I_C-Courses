@@ -1,0 +1,332 @@
+html{
+    background-color: rgb(229, 229, 229);
+}
+body{
+    font-size:1.3vw;
+    max-width: 90%;
+    background-color: white;
+}
+header{
+    height: 45vw;
+}
+.nav{
+    padding: 0 0;
+    display: flex;
+    justify-content: center;
+}
+.nav a{
+    display: inline-block;
+    padding: 0.4vw 1.2vw;
+}
+.nav a:hover{
+    border-radius: 0.4rem;
+}
+.logo{
+    width: 15%;
+    margin: 0 1%;
+    padding: 1vw;
+}
+.menu{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu a{
+    text-align: center;
+}
+.signing{
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+.signing .signup{
+    color: white;
+    background-color: rgb(247, 60, 107);
+    border-radius: 0.4rem;
+}
+
+/* Navbar Ended Here  */
+
+.nav-content-container{
+    flex-direction: row;
+}
+.nav-content-container .image{
+    width: 50%;
+}
+.content{
+    width: 50%;
+    margin: 10% 10% 20% 0;
+    text-align: left;
+    
+}
+.content h1{
+    font-size: 4vw;
+    font-weight: bolder;
+    text-align: center;
+}
+.content p{
+    margin-top: 2.2vw;
+    margin-bottom: 3vw;
+    padding: 0 2.3vw;
+}
+.contact-btn{
+    margin-left:2.3vw;
+}
+
+/* Header Section Ended  */
+
+/* Capsul Section Started  */
+.capsul-image{
+    width: 3rem;
+    height: auto;
+    display: inline-block;
+}
+.capsul-image img{
+    width: 100%;
+    height: auto;
+}
+.capsul-container{
+    flex-direction: row;
+}
+.capsul-content{
+    order: 1;
+    width: 50%;
+    z-index: 2;
+ 
+}
+.big-capsul-image{
+    order: 2;
+    width: 23vw;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+/* Capsul Area Ended Here  */
+
+/* Business Area Started Here  */
+.business{
+    height: 25vw;
+}
+.ring-image{
+    width: 7vw;
+    top: 30%;
+    left:-2vw;
+}
+.business-container{
+    justify-content: center;
+    align-items: center;
+}
+.business-content-1, .business-content-2{
+
+    padding: 5vw 1vw;
+    font-size: 3vw;
+    font-weight: 550;
+}
+.business-content-1{
+    padding-right: 2vw;
+}
+.business-content-2{
+    padding-left: 10vw;
+}
+
+/* Cycle Area Started Here  */
+.cycle-image{
+    width: 75vw;
+    margin: 0 auto;
+    display: inline-block;
+    position: absolute;
+    top: -38vw;
+    left: 18vw;
+    order: 0;
+
+}
+.cycle-container{
+    order: 1;
+}
+.cycle-container, .text-container{
+    display: flex;
+    flex-direction: row;
+}
+.cycle-content-1{
+    margin-right: 43vw;
+}
+.cycle-content-2{
+    padding-left: 2vw;
+    z-index: 1;
+}
+
+.text-container{
+    padding-top: 4vw;
+}
+/* Cycle Area Ended Here  */
+
+/* Running Area Started  */
+.running{
+    position: relative;
+}
+.running-sm-image{
+    display: inline-block;
+    width: 7vw;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.running-sm-image img{
+    width: 100%;
+    height: auto;
+}
+
+.running-container{
+    flex-direction: row;
+    padding-top: 6vw;
+}
+.running-image{
+    width: 55%;
+    height: auto;
+}
+.running-content{
+    width: 45%;
+    margin-right: 7vw;
+    padding: 0 3.5vw;
+}
+.running-content h5{
+    font-size: 1.5vw;
+}
+.running-content h1{
+    font-size: 3.5vw;
+}
+/* Running Area Ended Here  */
+
+/* Business Grow Area Started  */
+.business-grow{
+    display: block;
+    position: relative;
+    background-color: rgb(255, 163, 171);
+    height: 27vw;
+}
+.subscribe-image{
+    width: 50vw;
+    height: auto;
+    display: inline-block;
+    position: absolute;
+    top: -17vw;
+    right: 6vw;
+}
+.subscribe-image img{
+    width: 100%;
+}
+.subscription-container{
+    width: 55%;
+    padding: 7vw 4vw;
+}
+.subscription-container p{
+    font-size: 2.5vw;
+    font-weight: 700;
+}
+.subscription-container input,button{
+    display: inline-block;
+    margin: 0.6rem 0;
+    padding: 0.6rem 1rem;
+    border: none;
+}
+
+/* Business Grow Area Ended*/
+/* About Section Started  */
+
+.abut{
+    margin: 0;
+}
+.about-heading{
+    margin: 1.5rem;
+    width: 50%;
+    padding: 0 4vw;
+    font-size: 2vw;
+}
+.about-container{
+    padding: 0 4vw;
+    flex-direction: row;
+}
+
+/* About Section Started  */
+
+
+/* Footer Design Started Here  */
+#footer-top-image{
+    height: 13vw;
+    width: auto;
+    top: -5.8vw;
+    right: 1vw;
+}
+#footer-bottom-image{
+    height: 6vw;
+    width: auto;
+    bottom: 6vw;
+    right: 6vw;
+}
+
+#footer-left-image{
+    display:inline-block;
+    width: auto;
+    height: 4vw;
+    position: absolute;
+    top: 34vw;
+    left: 0;
+}
+#footer-left-image img{
+    width: auto;
+    height: 100%;   
+}
+.upper-wrapper{
+    border-bottom: 2px solid black;
+    margin: 0 4vw;
+}
+.footer-upper{
+    flex-direction: row;
+    padding-top: 2vw;   
+}
+.wide{
+    width: 45%;
+}
+.wide img{
+    margin: 3vw 0;
+    height: 2vw;
+}
+.narrow{
+    margin: 3vw 2vw;
+    margin-top: 4vw;
+}
+.narrow h6{
+    font-size: 1.5vw;
+    margin-bottom: 3vw;
+}
+.narrow li{
+    padding: 0.5rem 0;
+}
+.city-name{
+    margin: 1vw;
+    justify-content: right;
+}
+.city-name a{
+    padding: 0.5rem;
+    font-size: 1.3vw;
+}
+.pay-image{
+    width: 6vw;
+}
+.copy-right-container{
+    flex-direction: row;
+    margin-top: 5vw;
+    padding-bottom: 3vw;
+}
+.copy-right{
+    order: 1;
+    width: 70%;
+}
+.copy-right-bottom{
+    font-size: 0.8rem;
+}
+.terms{
+    order: 2;
+}
